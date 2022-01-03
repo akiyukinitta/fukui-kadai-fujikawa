@@ -1,5 +1,3 @@
-# fukui-kadai-fujikawa
-
 
 # 課題内容
 ## section1

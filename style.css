@@ -198,7 +198,7 @@ main {
  .slider img {
      width:100%;/*スライダー内の画像を横幅100%に*/
      height:auto;
- }s
+ }
  
  /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
  
@@ -347,7 +347,7 @@ main {
 }
 .map {
     position: relative;
-    padding-top: 50%; /* = height ÷ width × 100 */
+    padding-top: 39%; 
 }
 .map iframe {
     position: absolute;
@@ -360,8 +360,7 @@ main {
 .footer {
     display: flex;
     justify-content: space-between;
-    height: 21vw;
-    padding: 5.5vw 4.1vw;
+    padding: 100px 82px 90px;
 }
 .footer__lead {
     font-size: 0.8rem;
@@ -387,7 +386,7 @@ main {
 .footer__txt {
     font-size: 0.8rem;
     float: right;
-    margin-top: 6vw;
+    margin-top: 86px;
     font-family: 'Noto Serif JP', serif;
 }
 .sp-only {
@@ -424,9 +423,11 @@ main {
     }
     .menu-content h1 {
         font-size: 2.6rem;
+        padding-bottom: 24px;
     }
     .menu-content ul li a {
         font-size: 1rem;
+        padding-bottom: 24px;
     }
     #about {
         width: 100%;
@@ -464,7 +465,7 @@ main {
         display: block;
     }
     .contact__img {
-        width: 92%;
+        width: 91.5%;
         margin: 0 auto 32px;
     }
     .contact__wrap {
@@ -493,6 +494,12 @@ main {
         width: 92%;
         padding-bottom: 80px;
         margin: 68px auto 0;
+    }
+    .map {
+        padding-top: 60%;
+    }
+    .map iframe {
+        height: 100%;
     }
     .footer {
         display: block;

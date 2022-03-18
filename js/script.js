@@ -6,6 +6,8 @@ $('.slider').slick({
   prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
   nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
   dots: true,//下部ドットナビゲーションの表示
+  centerMode:true,
+	centerPadding:"35px",
   responsive: [
     {
       breakpoint: 1200,//モニターの横幅が1200px以下の見せ方
@@ -29,4 +31,12 @@ $('.slider').slick({
       }
       }
       ]
+});
+
+// #page-topをクリックした際の設定
+$('#page-top').click(function () {
+  $('body,html').animate({
+      scrollTop: 0//ページトップまでスクロール
+  }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
+  return false;//リンク自体の無効化
 });

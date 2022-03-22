@@ -389,6 +389,27 @@ main {
     margin-top: 86px;
     font-family: 'Noto Serif JP', serif;
 }
+/* ページTOPに戻る */
+.pagetop{
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+}
+.pagetop a{
+    display: block;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #B6E2A2;
+    line-height: 50px;
+}
+.pagetop a i{
+    font-size: 20px;
+    color:#fff;
+    line-height: 50px;
+}
 .sp-only {
     display: none;
 }
